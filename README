@@ -1,0 +1,13 @@
+= Random Groups Of
+
+A new method for the Ruby Array class for breaking down one large array into
+smaller randomly organized arrays of size 'number'
+
+
+= How it's used
+
+  list.random_groups_of(4) => returns [[...],[...]...]
+
+= Options
+
+When the last left over group is "small" and no_small_groups was set to true then add the items from the last small group to the other groups.
